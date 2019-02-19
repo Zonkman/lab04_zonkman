@@ -4,7 +4,7 @@
 
 int maxOfArray(int a[], int size) {
   if (size < 1){
-    std::cout << "ERROR: maxOfArray called with size < 1" << std::endl;
+    std::cerr << "ERROR: maxOfArray called with size < 1" << std::endl;
     exit(1);
   }
   
